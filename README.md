@@ -182,59 +182,6 @@ curl http://localhost:8000/v1/transactions/txn_test123
 
 ---
 
-## 🚀 Deployment
-
-### Frontend Deployment
-
-**Vercel (Recommended):**
-
-```bash
-cd frontend
-npm install -g vercel
-vercel
-```
-
-**Netlify:**
-
-```bash
-cd frontend
-npm run build
-# Upload dist/ folder to Netlify
-```
-
-**Environment Variables:**
-
-- `VITE_SUPABASE_URL`
-- `VITE_SUPABASE_ANON_KEY`
-
-### Backend Deployment
-
-**Docker Hub:**
-
-```bash
-cd service
-docker build -t username/webhook-api .
-docker push username/webhook-api
-```
-
-**Deploy on any Docker host:**
-
-- Coolify
-- Railway
-- Render
-- AWS ECS
-- DigitalOcean App Platform
-
-**Environment Variables:**
-
-- `POSTGRES_USER`
-- `POSTGRES_PASSWORD`
-- `POSTGRES_DB`
-- `DATABASE_URL`
-- `REDIS_URL`
-
----
-
 ## 📊 Architecture Diagrams
 
 ### Frontend Architecture
