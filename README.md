@@ -83,7 +83,7 @@ A production-ready **FastAPI** service that receives transaction webhooks, proce
 
 ```bash
 git clone https://github.com/s-gowtham-d/confluencr-assessment.git
-cd confluencr-assessment.git
+cd confluencr-assessment
 ```
 
 ### Run Frontend

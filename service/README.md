@@ -110,14 +110,6 @@ cd confluencr-assessment/service
 
 #### 2️⃣ Create `.env` file
 
-```bash
-# Copy example environment file
-cp .env.example .env
-
-# Edit with your values (or use defaults for local development)
-nano .env
-```
-
 **Example `.env` file:**
 
 ```env
